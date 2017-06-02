@@ -2,13 +2,11 @@
 #include "./headers/input_reader.h"
 
 int main(int argc, char *argv[]) {
-  vertex v = new_vertex(5, 10, 0);
-  print_vertex(v);
+  string data = read_file("./in/data.txt");
 
-  string data = read_file("../in/data.txt");
-  string classes = read_file("../in/classes.txt");
+  vector<string> all_lines = process_input(data);
 
-  printf("%s\n%s", data.data(), classes.data());
+  for(string s : all_lines) printf("[%s]\n", s.data());
 
   return 0;
 }
