@@ -3,14 +3,13 @@
 
 #include <cstdio>
 
-using namespace std;
-
 typedef struct vertex {
+  int group;
   float x;
   float y;
 } vertex;
 
-vertex new_vertex(float x, float y);
+vertex new_vertex(float x, float y, int group);
 
 void print_vertex(vertex v);
 

@@ -6,13 +6,6 @@
 
 using namespace std;
 
-typedef struct input_reader {
-  string filename;
-  ifstream ifs;
-} input_reader;
-
-input_reader new_input_reader(string filename);
-
-string read_file(input_reader ir);
+string read_file(string filename);
 
 #endif

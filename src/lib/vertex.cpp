@@ -1,7 +1,8 @@
 #include "../headers/vertex.h"
 
-vertex new_vertex(float x, float y) {
+vertex new_vertex(float x, float y, int group) {
   vertex v;
+  v.group = group;
   v.x = x;
   v.y = y;
   return v;
