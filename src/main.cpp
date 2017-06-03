@@ -18,10 +18,10 @@ int main(int argc, char *argv[]) {
   printf("euclidean distance between vertices %d and %d: %f\n", e.pos1, e.pos2, e.weight);
 
   graph g = new_graph(vertices.size(), vertices.size(), vertices);
-  //printf("rows: %ld\ncolumns: %ld\n", g.matrix.size(), g.matrix.at(g.matrix.size() - 1).size());
 
-  edge test = g.matrix.at(200).at(400);
+  edge test = g.edges.at(200).at(400);
   printf("euclidean distance between test vertices %d and %d: %f\n", test.pos1, test.pos2, test.weight);
+  printf("vertices: %ld\nedges: %ld\n", g.vertices.size(), (g.edges.size() * g.edges.at(g.edges.size() - 1).size()));
 
   return 0;
 }

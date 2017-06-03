@@ -8,7 +8,8 @@ using namespace std;
 typedef struct graph {
   int m;
   int n;
-  vector<vector<edge>> matrix;
+  vector<vertex> vertices;
+  vector<vector<edge>> edges;
 } graph;
 
 graph new_graph(int m, int n, vector<vertex> vertices);
