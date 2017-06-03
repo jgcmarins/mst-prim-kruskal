@@ -1,7 +1,10 @@
 #ifndef _VERTEX_H_
 #define _VERTEX_H_
 
+#include <cstdlib>
 #include <cstdio>
+#include <cstring>
+#include <vector>
 
 typedef struct vertex {
   int group;

@@ -2,10 +2,11 @@
 #define _INPUTREADER_H_
 
 #include <cstdlib>
-#include <fstream>
-#include <string>
+#include <cstdio>
 #include <cstring>
 #include <vector>
+#include <string>
+#include <fstream>
 
 using namespace std;
 
