@@ -14,7 +14,7 @@ H=./src/headers
 MAIN=./src/main.cpp
 
 # libraries
-LIB=./src/lib/input_reader.cpp ./src/lib/vertex.cpp
+LIB=./src/lib/input_reader.cpp ./src/lib/vertex.cpp ./src/lib/edge.cpp
 
 all: clean compile
 clean:
