@@ -1,6 +1,9 @@
 #ifndef _GRAPH_H_
 #define _GRAPH_H_
 
+#include <functional>
+#include <queue>
+
 #include "./edge.h"
 
 using namespace std;
@@ -13,5 +16,7 @@ typedef struct graph {
 } graph;
 
 graph new_graph(int m, int n, vector<vertex> vertices);
+
+vector<edge> get_vector(graph g);
 
 #endif

@@ -18,3 +18,13 @@ graph new_graph(int m, int n, vector<vertex> vertices) {
 
   return g;
 }
+
+vector<edge> get_vector(graph g) {
+  vector<edge> v;
+  for(vector<edge> row : g.edges) {
+    for(edge col : row) {
+      if(col.pos1 != col.pos2) v.push_back(col);
+    }
+  }
+  return v;
+}
