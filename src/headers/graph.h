@@ -19,4 +19,6 @@ graph new_graph(int m, int n, vector<vertex> vertices);
 
 vector<edge> get_vector(graph g);
 
+void print_graph(graph g);
+
 #endif

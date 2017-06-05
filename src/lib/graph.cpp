@@ -23,8 +23,27 @@ vector<edge> get_vector(graph g) {
   vector<edge> v;
   for(vector<edge> row : g.edges) {
     for(edge col : row) {
-      if(col.src != col.des) v.push_back(col);
+      if(col.src < col.des) v.push_back(col);
     }
   }
   return v;
+}
+
+void print_graph(graph g) {
+  vector<vertex> row = g.vertices;
+  printf("               ");
+  for(vertex v : row) {
+    print_vertex(v);
+    printf(" ");
+  }
+  printf("\n");
+  for(unsigned int i = 0 ; i < row.size() ; i++) {
+    print_vertex(row.at(i));
+    printf(" ");
+    for(unsigned int j = 0 ; j < row.size() ; j++) {
+      print_edge(g.edges.at(i).at(j));
+      printf(" |");
+    }
+    printf("\n");
+  }
 }

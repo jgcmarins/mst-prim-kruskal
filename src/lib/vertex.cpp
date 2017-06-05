@@ -9,5 +9,5 @@ vertex new_vertex(float x, float y, int group) {
 }
 
 void print_vertex(vertex v) {
-  printf("group: %d -> (%f, %f)\n", v.group, v.x, v.y);
+  printf("(%.2f, %.2f)", v.x, v.y);
 }

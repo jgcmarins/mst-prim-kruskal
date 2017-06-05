@@ -10,3 +10,7 @@ edge new_edge(vertex v1, vertex v2, int src, int des) {
   e.des = des;
   return e;
 }
+
+void print_edge(edge e) {
+  printf("%d->%d : %.4f", e.src, e.des, e.weight);
+}

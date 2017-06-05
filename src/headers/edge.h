@@ -13,4 +13,6 @@ typedef struct edge {
 
 edge new_edge(vertex v1, vertex v2, int src, int des);
 
+void print_edge(edge e);
+
 #endif

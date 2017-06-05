@@ -1,0 +1,3176 @@
+valgrind ./build/mst.app
+               (15.55, 28.65) (14.90, 27.55) (14.45, 28.35) (14.15, 28.80) (13.75, 28.05) (13.35, 28.45) (13.00, 29.15) (13.45, 27.50) 
+(15.55, 28.65) 0->0 : 0.0000 |0->1 : 1.2777 |0->2 : 1.1402 |0->3 : 1.4080 |0->4 : 1.8974 |0->5 : 2.2091 |0->6 : 2.5986 |0->7 : 2.3943 |
+(14.90, 27.55) 1->0 : 1.2777 |1->1 : 0.0000 |1->2 : 0.9179 |1->3 : 1.4577 |1->4 : 1.2540 |1->5 : 1.7923 |1->6 : 2.4839 |1->7 : 1.4509 |
+(14.45, 28.35) 2->0 : 1.1402 |2->1 : 0.9179 |2->2 : 0.0000 |2->3 : 0.5408 |2->4 : 0.7616 |2->5 : 1.1045 |2->6 : 1.6560 |2->7 : 1.3124 |
+(14.15, 28.80) 3->0 : 1.4080 |3->1 : 1.4577 |3->2 : 0.5408 |3->3 : 0.0000 |3->4 : 0.8500 |3->5 : 0.8732 |3->6 : 1.2021 |3->7 : 1.4765 |
+(13.75, 28.05) 4->0 : 1.8974 |4->1 : 1.2540 |4->2 : 0.7616 |4->3 : 0.8500 |4->4 : 0.0000 |4->5 : 0.5657 |4->6 : 1.3314 |4->7 : 0.6265 |
+(13.35, 28.45) 5->0 : 2.2091 |5->1 : 1.7923 |5->2 : 1.1045 |5->3 : 0.8732 |5->4 : 0.5657 |5->5 : 0.0000 |5->6 : 0.7826 |5->7 : 0.9552 |
+(13.00, 29.15) 6->0 : 2.5986 |6->1 : 2.4839 |6->2 : 1.6560 |6->3 : 1.2021 |6->4 : 1.3314 |6->5 : 0.7826 |6->6 : 0.0000 |6->7 : 1.7103 |
+(13.45, 27.50) 7->0 : 2.3943 |7->1 : 1.4509 |7->2 : 1.3124 |7->3 : 1.4765 |7->4 : 0.6265 |7->5 : 0.9552 |7->6 : 1.7103 |7->7 : 0.0000 |
+pq size: 28 | mst size: 0
+out: analyzing edge from 2 to 3: 0.540832 weight
+not in vector, vector size: 0
+src-src 2-2: 1 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-2: 0
+in: analyzing edge from 3 to 4: 0.850000 weight
+src-src 2-3: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-2: 0
+not in vector, vector size: 1
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+in: analyzing edge from 4 to 5: 0.565686 weight
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-2: 0
+not in vector, vector size: 2
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-2: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-2: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-2: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-2: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-2: 0
+in: analyzing edge from 5 to 0: 2.209072 weight
+src-src 3-5: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-2: 0
+not in vector, vector size: 3
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-2: 0
+not in vector, vector size: 4
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-2: 0
+not in vector, vector size: 5
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-2: 0
+not in vector, vector size: 6
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-2: 0
+not in vector, vector size: 7
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 27 | mst size: 8
+out: analyzing edge from 4 to 5: 0.565686 weight
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-4: 0
+src-src 5-4: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-4: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+not in vector, vector size: 8
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-4: 0
+src-src 5-4: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-4: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-4: 0
+src-src 5-4: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-4: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-4: 0
+src-src 5-4: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-4: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-4: 0
+src-src 5-4: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-4: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-4: 0
+src-src 5-4: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-4: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+in: analyzing edge from 5 to 0: 2.209072 weight
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 3-5: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-2: 0
+not in vector, vector size: 9
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 10
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 11
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 12
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 26 | mst size: 13
+out: analyzing edge from 4 to 7: 0.626498 weight
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 7-3: 0 | src-des 4-3: 0 | des-src 7-2: 0
+not in vector, vector size: 13
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 7-3: 0 | src-des 4-3: 0 | des-src 7-2: 0
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 7-3: 0 | src-des 4-3: 0 | des-src 7-2: 0
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 7-3: 0 | src-des 4-3: 0 | des-src 7-2: 0
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 7-3: 0 | src-des 4-3: 0 | des-src 7-2: 0
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 7-3: 0 | src-des 4-3: 0 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 5-7: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-7: 0
+src-src 3-7: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-7: 0
+src-src 2-7: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-7: 0
+src-src 7-2: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-2: 0
+not in vector, vector size: 14
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+not in vector, vector size: 15
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 16
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 17
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 18
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-0: 0
+src-src 0-4: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-4: 0
+not in vector, vector size: 19
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 25 | mst size: 20
+out: analyzing edge from 2 to 4: 0.761578 weight
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 4-3: 0 | src-des 2-3: 0 | des-src 4-2: 0
+not in vector, vector size: 20
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 4-3: 0 | src-des 2-3: 0 | des-src 4-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 4-3: 0 | src-des 2-3: 0 | des-src 4-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 4-3: 0 | src-des 2-3: 0 | des-src 4-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 4-3: 0 | src-des 2-3: 0 | des-src 4-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 4-3: 0 | src-des 2-3: 0 | des-src 4-2: 0
+in: analyzing edge from 4 to 0: 1.897367 weight
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-4: 0
+src-src 3-4: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 0-3: 0 | src-des 4-3: 0 | des-src 0-2: 0
+not in vector, vector size: 21
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 22
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 23
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 24
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 24 | mst size: 25
+out: analyzing edge from 5 to 6: 0.782623 weight
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 6-3: 0 | src-des 5-3: 0 | des-src 6-2: 0
+not in vector, vector size: 25
+src-src 4-5: 0 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 6-3: 0 | src-des 5-3: 0 | des-src 6-2: 0
+src-src 4-5: 0 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 6-3: 0 | src-des 5-3: 0 | des-src 6-2: 0
+src-src 4-5: 0 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 6-3: 0 | src-des 5-3: 0 | des-src 6-2: 0
+src-src 4-5: 0 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 6-3: 0 | src-des 5-3: 0 | des-src 6-2: 0
+src-src 4-5: 0 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 6-3: 0 | src-des 5-3: 0 | des-src 6-2: 0
+in: analyzing edge from 6 to 0: 2.598557 weight
+src-src 4-6: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-6: 0
+src-src 3-6: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 0-3: 0 | src-des 6-3: 0 | des-src 0-2: 0
+not in vector, vector size: 26
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+not in vector, vector size: 27
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+not in vector, vector size: 28
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+not in vector, vector size: 29
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 23 | mst size: 30
+out: analyzing edge from 3 to 4: 0.850000 weight
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-4: 0 | src-des 5-4: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 4-3: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-3: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+not in vector, vector size: 30
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-4: 0 | src-des 5-4: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 4-3: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-3: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-4: 0 | src-des 5-4: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 4-3: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-3: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-4: 0 | src-des 5-4: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 4-3: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-3: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-4: 0 | src-des 5-4: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 4-3: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-3: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-4: 0 | src-des 5-4: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-3: 0
+src-src 4-3: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-3: 0
+src-src 3-4: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-4: 1
+in: analyzing edge from 4 to 0: 1.897367 weight
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 0-3: 0 | src-des 4-3: 0 | des-src 0-2: 0
+not in vector, vector size: 31
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 32
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 6-0: 0 | src-des 5-0: 0 | des-src 6-0: 0
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 33
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 6-0: 0 | src-des 5-0: 0 | des-src 6-0: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+not in vector, vector size: 34
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 6-0: 0 | src-des 5-0: 0 | des-src 6-0: 0
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+not in vector, vector size: 35
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 22 | mst size: 36
+out: analyzing edge from 3 to 5: 0.873211 weight
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 5-3: 0 | src-des 3-3: 1 | des-src 5-2: 0
+not in vector, vector size: 36
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 5-3: 0 | src-des 3-3: 1 | des-src 5-2: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 5-3: 0 | src-des 3-3: 1 | des-src 5-2: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 5-3: 0 | src-des 3-3: 1 | des-src 5-2: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 5-3: 0 | src-des 3-3: 1 | des-src 5-2: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-5: 0 | src-des 5-5: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 5-3: 0 | src-des 3-3: 1 | des-src 5-2: 0
+in: analyzing edge from 5 to 0: 2.209072 weight
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-5: 0
+src-src 7-5: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+not in vector, vector size: 37
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 38
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 39
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 40
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 41
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 42
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-0: 0
+src-src 0-2: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-2: 0
+not in vector, vector size: 43
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 21 | mst size: 44
+out: analyzing edge from 1 to 2: 0.917879 weight
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 2-3: 0 | src-des 1-3: 0 | des-src 2-2: 1
+not in vector, vector size: 44
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 2-3: 0 | src-des 1-3: 0 | des-src 2-2: 1
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 2-3: 0 | src-des 1-3: 0 | des-src 2-2: 1
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 2-3: 0 | src-des 1-3: 0 | des-src 2-2: 1
+in: analyzing edge from 2 to 0: 1.140176 weight
+src-src 0-2: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 0-3: 0 | src-des 2-3: 0 | des-src 0-2: 0
+not in vector, vector size: 45
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+not in vector, vector size: 46
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+not in vector, vector size: 47
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 48
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 49
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 6-0: 0 | src-des 5-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+not in vector, vector size: 50
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 6-0: 0 | src-des 5-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-5: 0
+not in vector, vector size: 51
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+not in vector, vector size: 52
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-4: 0
+not in vector, vector size: 53
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 20 | mst size: 54
+out: analyzing edge from 5 to 7: 0.955249 weight
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 7-7: 1 | src-des 4-7: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 7-3: 0 | src-des 5-3: 0 | des-src 7-2: 0
+not in vector, vector size: 54
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 7-7: 1 | src-des 4-7: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 7-3: 0 | src-des 5-3: 0 | des-src 7-2: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 7-7: 1 | src-des 4-7: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 7-3: 0 | src-des 5-3: 0 | des-src 7-2: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 7-7: 1 | src-des 4-7: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 7-3: 0 | src-des 5-3: 0 | des-src 7-2: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 7-7: 1 | src-des 4-7: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 7-3: 0 | src-des 5-3: 0 | des-src 7-2: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 7-7: 1 | src-des 4-7: 0 | des-src 7-5: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+src-src 5-5: 1 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-5: 0
+src-src 3-5: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 7-3: 0 | src-des 5-3: 0 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 4-7: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-7: 1
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 5-7: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-7: 0
+src-src 3-7: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-7: 0
+src-src 2-7: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-7: 0
+src-src 7-2: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-2: 0
+not in vector, vector size: 55
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 56
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 57
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 58
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 59
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 60
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 61
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 62
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-0: 0
+src-src 0-3: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-3: 0
+not in vector, vector size: 63
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 19 | mst size: 64
+out: analyzing edge from 2 to 5: 1.104536 weight
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 5-3: 0 | src-des 2-3: 0 | des-src 5-2: 0
+not in vector, vector size: 64
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 5-3: 0 | src-des 2-3: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 5-3: 0 | src-des 2-3: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 5-3: 0 | src-des 2-3: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 5-3: 0 | src-des 2-3: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 5-3: 0 | src-des 2-3: 0 | des-src 5-2: 0
+in: analyzing edge from 5 to 0: 2.209072 weight
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 3-5: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-2: 0
+not in vector, vector size: 65
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 66
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 67
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 68
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 69
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 18 | mst size: 70
+out: analyzing edge from 0 to 2: 1.140176 weight
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 2-3: 0 | src-des 0-3: 0 | des-src 2-2: 1
+not in vector, vector size: 70
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 2-3: 0 | src-des 0-3: 0 | des-src 2-2: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 2-3: 0 | src-des 0-3: 0 | des-src 2-2: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 2-3: 0 | src-des 0-3: 0 | des-src 2-2: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-2: 0 | src-des 4-2: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-2: 0 | src-des 3-2: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-2: 0 | src-des 2-2: 1 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 2-3: 0 | src-des 0-3: 0 | des-src 2-2: 1
+in: analyzing edge from 2 to 0: 1.140176 weight
+src-src 0-2: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 0-3: 0 | src-des 2-3: 0 | des-src 0-2: 0
+not in vector, vector size: 71
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 72
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 73
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 74
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-0: 0
+src-src 0-3: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-3: 0
+not in vector, vector size: 75
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 17 | mst size: 76
+out: analyzing edge from 3 to 6: 1.202081 weight
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 6-3: 0 | src-des 3-3: 1 | des-src 6-2: 0
+not in vector, vector size: 76
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 6-3: 0 | src-des 3-3: 1 | des-src 6-2: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 6-3: 0 | src-des 3-3: 1 | des-src 6-2: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 6-3: 0 | src-des 3-3: 1 | des-src 6-2: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 6-3: 0 | src-des 3-3: 1 | des-src 6-2: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 6-3: 0 | src-des 3-3: 1 | des-src 6-2: 0
+in: analyzing edge from 6 to 0: 2.598557 weight
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 0-3: 0 | src-des 6-3: 0 | des-src 0-2: 0
+not in vector, vector size: 77
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 78
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 79
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 80
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 81
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 82
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 16 | mst size: 83
+out: analyzing edge from 1 to 4: 1.253993 weight
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 4-3: 0 | src-des 1-3: 0 | des-src 4-2: 0
+not in vector, vector size: 83
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 0-4: 0 | src-des 4-4: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 4-3: 0 | src-des 1-3: 0 | des-src 4-2: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 0-4: 0 | src-des 4-4: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 4-3: 0 | src-des 1-3: 0 | des-src 4-2: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 0-4: 0 | src-des 4-4: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 4-3: 0 | src-des 1-3: 0 | des-src 4-2: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 0-4: 0 | src-des 4-4: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 4-3: 0 | src-des 1-3: 0 | des-src 4-2: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 0-4: 0 | src-des 4-4: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 4-3: 0 | src-des 1-3: 0 | des-src 4-2: 0
+in: analyzing edge from 4 to 0: 1.897367 weight
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+not in vector, vector size: 84
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 85
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 86
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 87
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+not in vector, vector size: 88
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+not in vector, vector size: 89
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+not in vector, vector size: 90
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 2-0: 0 | src-des 1-0: 0 | des-src 2-0: 0
+src-src 0-1: 0 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-1: 0
+not in vector, vector size: 91
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 15 | mst size: 92
+out: analyzing edge from 0 to 1: 1.277694 weight
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-1: 0 | src-des 4-1: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-1: 0 | src-des 3-1: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-1: 0 | src-des 2-1: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 1-3: 0 | src-des 0-3: 0 | des-src 1-2: 0
+not in vector, vector size: 92
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-1: 0 | src-des 4-1: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-1: 0 | src-des 3-1: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-1: 0 | src-des 2-1: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 1-3: 0 | src-des 0-3: 0 | des-src 1-2: 0
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-1: 0 | src-des 4-1: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-1: 0 | src-des 3-1: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-1: 0 | src-des 2-1: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 1-3: 0 | src-des 0-3: 0 | des-src 1-2: 0
+in: analyzing edge from 1 to 0: 1.277694 weight
+src-src 0-1: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 0-3: 0 | src-des 1-3: 0 | des-src 0-2: 0
+not in vector, vector size: 93
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 94
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 95
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 4-0: 0 | src-des 1-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+not in vector, vector size: 96
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 14 | mst size: 97
+out: analyzing edge from 2 to 7: 1.312441 weight
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 7-3: 0 | src-des 2-3: 0 | des-src 7-2: 0
+not in vector, vector size: 97
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 7-3: 0 | src-des 2-3: 0 | des-src 7-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 7-3: 0 | src-des 2-3: 0 | des-src 7-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 7-3: 0 | src-des 2-3: 0 | des-src 7-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 7-3: 0 | src-des 2-3: 0 | des-src 7-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 7-3: 0 | src-des 2-3: 0 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 5-7: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-7: 0
+src-src 3-7: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-7: 0
+src-src 2-7: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-7: 0
+src-src 7-2: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-2: 0
+not in vector, vector size: 98
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 0-0: 1 | src-des 1-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 99
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 7-0: 0 | src-des 2-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+not in vector, vector size: 100
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 101
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 102
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 103
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 7-0: 0 | src-des 2-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+not in vector, vector size: 104
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 105
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 0-0: 1 | src-des 1-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 106
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 13 | mst size: 107
+out: analyzing edge from 4 to 6: 1.331353 weight
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 6-4: 0 | des-des 0-6: 0 | src-des 6-6: 1 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 6-3: 0 | src-des 4-3: 0 | des-src 6-2: 0
+not in vector, vector size: 107
+src-src 5-4: 0 | des-des 7-6: 0 | src-des 5-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 6-3: 0 | src-des 4-3: 0 | des-src 6-2: 0
+src-src 5-4: 0 | des-des 7-6: 0 | src-des 5-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 6-3: 0 | src-des 4-3: 0 | des-src 6-2: 0
+src-src 5-4: 0 | des-des 7-6: 0 | src-des 5-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 6-3: 0 | src-des 4-3: 0 | des-src 6-2: 0
+src-src 5-4: 0 | des-des 7-6: 0 | src-des 5-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 6-3: 0 | src-des 4-3: 0 | des-src 6-2: 0
+src-src 5-4: 0 | des-des 7-6: 0 | src-des 5-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 7-6: 0 | src-des 4-6: 0 | des-src 7-4: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+src-src 5-4: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-4: 0
+src-src 3-4: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 6-3: 0 | src-des 4-3: 0 | des-src 6-2: 0
+in: analyzing edge from 6 to 0: 2.598557 weight
+src-src 5-6: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 7-0: 0 | src-des 4-0: 0 | des-src 7-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-6: 0
+src-src 3-6: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 0-3: 0 | src-des 6-3: 0 | des-src 0-2: 0
+not in vector, vector size: 108
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 109
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 110
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 7-0: 0 | src-des 5-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-5: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-5: 0
+not in vector, vector size: 111
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 112
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 12 | mst size: 113
+out: analyzing edge from 0 to 3: 1.408013 weight
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 3-3: 1 | src-des 0-3: 0 | des-src 3-2: 0
+not in vector, vector size: 113
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 3-3: 1 | src-des 0-3: 0 | des-src 3-2: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 3-3: 1 | src-des 0-3: 0 | des-src 3-2: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 3-3: 1 | src-des 0-3: 0 | des-src 3-2: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 3-3: 1 | src-des 0-3: 0 | des-src 3-2: 0
+in: analyzing edge from 3 to 0: 1.408013 weight
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 7-3: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 5-3: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-3: 0
+src-src 3-3: 1 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 0-3: 0 | src-des 3-3: 1 | des-src 0-2: 0
+not in vector, vector size: 114
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 6-0: 0 | src-des 4-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+not in vector, vector size: 115
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 116
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 117
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 11 | mst size: 118
+out: analyzing edge from 1 to 7: 1.450862 weight
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 7-1: 0 | des-des 0-7: 0 | src-des 7-7: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 5-1: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-1: 0
+src-src 3-1: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 7-3: 0 | src-des 1-3: 0 | des-src 7-2: 0
+not in vector, vector size: 118
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 7-1: 0 | des-des 0-7: 0 | src-des 7-7: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 5-1: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-1: 0
+src-src 3-1: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 7-3: 0 | src-des 1-3: 0 | des-src 7-2: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 7-1: 0 | des-des 0-7: 0 | src-des 7-7: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 5-1: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-1: 0
+src-src 3-1: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 7-3: 0 | src-des 1-3: 0 | des-src 7-2: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 7-1: 0 | des-des 0-7: 0 | src-des 7-7: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 5-1: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-1: 0
+src-src 3-1: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 7-3: 0 | src-des 1-3: 0 | des-src 7-2: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 7-1: 0 | des-des 0-7: 0 | src-des 7-7: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 5-1: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-1: 0
+src-src 3-1: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 7-3: 0 | src-des 1-3: 0 | des-src 7-2: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 7-1: 0 | des-des 0-7: 0 | src-des 7-7: 1 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+src-src 5-1: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-1: 0
+src-src 3-1: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 7-3: 0 | src-des 1-3: 0 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 7-7: 1 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+not in vector, vector size: 119
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 120
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 121
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 122
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 123
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 0-0: 1 | src-des 1-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 124
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 7-0: 0 | src-des 1-0: 0 | des-src 7-0: 0
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 125
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 7-0: 0 | src-des 1-0: 0 | des-src 7-0: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+not in vector, vector size: 126
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 7-0: 0 | src-des 1-0: 0 | des-src 7-0: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+not in vector, vector size: 127
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 128
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 129
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 130
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 131
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 10 | mst size: 132
+out: analyzing edge from 1 to 3: 1.457738 weight
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 3-3: 1 | src-des 1-3: 0 | des-src 3-2: 0
+not in vector, vector size: 132
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 3-3: 1 | src-des 1-3: 0 | des-src 3-2: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 3-3: 1 | src-des 1-3: 0 | des-src 3-2: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 3-3: 1 | src-des 1-3: 0 | des-src 3-2: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-3: 0 | src-des 4-3: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-3: 0 | src-des 3-3: 1 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-3: 1 | src-des 2-3: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 3-3: 1 | src-des 1-3: 0 | des-src 3-2: 0
+in: analyzing edge from 3 to 0: 1.408013 weight
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 0-3: 0 | src-des 3-3: 1 | des-src 0-2: 0
+not in vector, vector size: 133
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 7-0: 0 | src-des 1-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 134
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 7-0: 0 | src-des 1-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 135
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 7-0: 0 | src-des 1-0: 0 | des-src 7-0: 0
+src-src 0-1: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-1: 0
+not in vector, vector size: 136
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 3-0: 0 | src-des 1-0: 0 | des-src 3-0: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+not in vector, vector size: 137
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 9 | mst size: 138
+out: analyzing edge from 3 to 7: 1.476482 weight
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 7-3: 0 | src-des 3-3: 1 | des-src 7-2: 0
+not in vector, vector size: 138
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 7-3: 0 | src-des 3-3: 1 | des-src 7-2: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 7-3: 0 | src-des 3-3: 1 | des-src 7-2: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 7-3: 0 | src-des 3-3: 1 | des-src 7-2: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 7-3: 0 | src-des 3-3: 1 | des-src 7-2: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+src-src 4-3: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-3: 0
+src-src 3-3: 1 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-3: 0
+src-src 2-3: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-3: 1
+src-src 3-2: 0 | des-des 7-3: 0 | src-des 3-3: 1 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 4-7: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 4-7: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-7: 0
+src-src 3-7: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-7: 0
+src-src 2-7: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-7: 0
+src-src 7-2: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-2: 0
+not in vector, vector size: 139
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 140
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 141
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 142
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-2: 0 | src-des 0-2: 0 | des-src 0-0: 1
+not in vector, vector size: 143
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 6-0: 0 | src-des 4-0: 0 | des-src 6-0: 0
+src-src 0-4: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-4: 0
+not in vector, vector size: 144
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 8 | mst size: 145
+out: analyzing edge from 2 to 6: 1.656049 weight
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 5-6: 0 | src-des 3-6: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 6-3: 0 | src-des 2-3: 0 | des-src 6-2: 0
+not in vector, vector size: 145
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 5-6: 0 | src-des 3-6: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 6-3: 0 | src-des 2-3: 0 | des-src 6-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 5-6: 0 | src-des 3-6: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 6-3: 0 | src-des 2-3: 0 | des-src 6-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 5-6: 0 | src-des 3-6: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 6-3: 0 | src-des 2-3: 0 | des-src 6-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 5-6: 0 | src-des 3-6: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 6-3: 0 | src-des 2-3: 0 | des-src 6-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 3-2: 0 | des-des 5-6: 0 | src-des 3-6: 0 | des-src 5-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 5-2: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-2: 0
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+src-src 4-2: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-2: 0
+src-src 3-2: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-2: 0
+src-src 2-2: 1 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-2: 0
+src-src 2-2: 1 | des-des 6-3: 0 | src-des 2-3: 0 | des-src 6-2: 0
+in: analyzing edge from 6 to 0: 2.598557 weight
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 3-6: 0 | des-des 5-0: 0 | src-des 3-0: 0 | des-src 5-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 0-3: 0 | src-des 6-3: 0 | des-src 0-2: 0
+not in vector, vector size: 146
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 7-0: 0 | src-des 3-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+not in vector, vector size: 147
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 7-0: 0 | src-des 3-0: 0 | des-src 7-0: 0
+src-src 0-3: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-3: 0
+not in vector, vector size: 148
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 6-0: 0 | src-des 2-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+not in vector, vector size: 149
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 150
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 151
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 152
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 153
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 154
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 6-0: 0 | src-des 3-0: 0 | des-src 6-0: 0
+src-src 0-3: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-3: 0
+not in vector, vector size: 155
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 7 | mst size: 156
+out: analyzing edge from 6 to 7: 1.710263 weight
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 7-3: 0 | src-des 6-3: 0 | des-src 7-2: 0
+not in vector, vector size: 156
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 7-3: 0 | src-des 6-3: 0 | des-src 7-2: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 7-3: 0 | src-des 6-3: 0 | des-src 7-2: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 7-3: 0 | src-des 6-3: 0 | des-src 7-2: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 7-3: 0 | src-des 6-3: 0 | des-src 7-2: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-7: 0 | src-des 5-7: 0 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 7-3: 0 | src-des 6-3: 0 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 5-7: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 4-7: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-7: 0
+src-src 3-7: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-7: 0
+src-src 2-7: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-7: 0
+src-src 7-2: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-2: 0
+not in vector, vector size: 157
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 158
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 3-0: 0 | src-des 0-0: 1 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-0: 1
+not in vector, vector size: 159
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 6 | mst size: 160
+out: analyzing edge from 1 to 5: 1.792345 weight
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-5: 0 | src-des 2-5: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 5-3: 0 | src-des 1-3: 0 | des-src 5-2: 0
+not in vector, vector size: 160
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-5: 0 | src-des 2-5: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 5-3: 0 | src-des 1-3: 0 | des-src 5-2: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-5: 0 | src-des 2-5: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 5-3: 0 | src-des 1-3: 0 | des-src 5-2: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-5: 0 | src-des 2-5: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 5-3: 0 | src-des 1-3: 0 | des-src 5-2: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-5: 0 | src-des 2-5: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 5-3: 0 | src-des 1-3: 0 | des-src 5-2: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 2-1: 0 | des-des 4-5: 0 | src-des 2-5: 0 | des-src 4-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 5-3: 0 | src-des 1-3: 0 | des-src 5-2: 0
+in: analyzing edge from 5 to 0: 2.209072 weight
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 2-5: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 3-5: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-2: 0
+not in vector, vector size: 161
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 7-0: 0 | src-des 6-0: 0 | des-src 7-0: 0
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+not in vector, vector size: 162
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 5-0: 0 | src-des 1-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+not in vector, vector size: 163
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 5 | mst size: 164
+out: analyzing edge from 0 to 4: 1.897367 weight
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+not in vector, vector size: 164
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 4-4: 1 | src-des 2-4: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-4: 0 | src-des 4-4: 1 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-4: 1 | src-des 3-4: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-4: 0 | src-des 2-4: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 4-3: 0 | src-des 0-3: 0 | des-src 4-2: 0
+in: analyzing edge from 4 to 0: 1.897367 weight
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 2-4: 0 | des-des 4-0: 0 | src-des 2-0: 0 | des-src 4-4: 1
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 0-4: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-4: 0
+src-src 4-4: 1 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-4: 0
+src-src 3-4: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-4: 1
+src-src 2-4: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-4: 0
+src-src 4-2: 0 | des-des 0-3: 0 | src-des 4-3: 0 | des-src 0-2: 0
+not in vector, vector size: 165
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 1-0: 0 | des-des 4-0: 0 | src-des 1-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+not in vector, vector size: 166
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 1-0: 0 | des-des 4-0: 0 | src-des 1-0: 0 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+not in vector, vector size: 167
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 4-0: 0 | src-des 1-0: 0 | des-src 4-0: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+not in vector, vector size: 168
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 4-0: 0 | src-des 1-0: 0 | des-src 4-0: 0
+src-src 0-1: 0 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-1: 0
+not in vector, vector size: 169
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 5-0: 0 | src-des 1-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+not in vector, vector size: 170
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 7-0: 0 | src-des 6-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-6: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-6: 0
+not in vector, vector size: 171
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 4 | mst size: 172
+out: analyzing edge from 0 to 5: 2.209072 weight
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+not in vector, vector size: 172
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-5: 0 | src-des 4-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-5: 1 | src-des 4-5: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-5: 0 | src-des 3-5: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-5: 0 | src-des 2-5: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 5-3: 0 | src-des 0-3: 0 | des-src 5-2: 0
+in: analyzing edge from 5 to 0: 2.209072 weight
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 0-5: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-5: 0
+src-src 4-5: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-5: 1
+src-src 3-5: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-5: 0
+src-src 2-5: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-5: 0
+src-src 5-2: 0 | des-des 0-3: 0 | src-des 5-3: 0 | des-src 0-2: 0
+not in vector, vector size: 173
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 4-0: 0 | src-des 0-0: 1 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+not in vector, vector size: 174
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 4-0: 0 | src-des 0-0: 1 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+not in vector, vector size: 175
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 3-0: 0 | src-des 1-0: 0 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+not in vector, vector size: 176
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 3-0: 0 | src-des 1-0: 0 | des-src 3-0: 0
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+not in vector, vector size: 177
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 7-0: 0 | src-des 6-0: 0 | des-src 7-0: 0
+src-src 2-0: 0 | des-des 6-0: 0 | src-des 2-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+not in vector, vector size: 178
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 6-0: 0 | src-des 2-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-2: 0
+not in vector, vector size: 179
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 3 | mst size: 180
+out: analyzing edge from 0 to 7: 2.394264 weight
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+not in vector, vector size: 180
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 0-7: 0 | src-des 2-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 5-7: 0 | src-des 4-7: 0 | des-src 5-0: 0
+src-src 3-0: 0 | des-des 4-7: 0 | src-des 3-7: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-7: 0 | src-des 2-7: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 7-3: 0 | src-des 0-3: 0 | des-src 7-2: 0
+in: analyzing edge from 7 to 0: 2.394264 weight
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 2-7: 0 | des-des 0-0: 1 | src-des 2-0: 0 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 0-7: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-7: 0
+src-src 4-7: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-7: 0
+src-src 3-7: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-7: 0
+src-src 2-7: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-7: 0
+src-src 7-2: 0 | des-des 0-3: 0 | src-des 7-3: 0 | des-src 0-2: 0
+not in vector, vector size: 181
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 5-0: 0 | src-des 1-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+not in vector, vector size: 182
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 5-0: 0 | src-des 1-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-1: 0
+not in vector, vector size: 183
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 184
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 185
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 1-0: 0 | des-des 0-0: 1 | src-des 1-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 186
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 1-0: 0 | des-des 0-0: 1 | src-des 1-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 2-0: 0 | src-des 0-0: 1 | des-src 2-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 5-0: 0 | src-des 2-0: 0 | des-src 5-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-5: 0 | src-des 0-5: 0 | des-src 0-2: 0
+not in vector, vector size: 187
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 4-0: 0 | des-des 0-0: 1 | src-des 4-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 4-0: 0 | src-des 0-0: 1 | des-src 4-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-4: 0 | src-des 0-4: 0 | des-src 0-0: 1
+not in vector, vector size: 188
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 2 | mst size: 189
+out: analyzing edge from 1 to 6: 2.483948 weight
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 6-3: 0 | src-des 1-3: 0 | des-src 6-2: 0
+not in vector, vector size: 189
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 6-3: 0 | src-des 1-3: 0 | des-src 6-2: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 6-3: 0 | src-des 1-3: 0 | des-src 6-2: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 6-3: 0 | src-des 1-3: 0 | des-src 6-2: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 6-3: 0 | src-des 1-3: 0 | des-src 6-2: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+src-src 4-1: 0 | des-des 5-6: 0 | src-des 4-6: 0 | des-src 5-1: 0
+src-src 3-1: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-1: 0
+src-src 2-1: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-1: 0
+src-src 1-2: 0 | des-des 6-3: 0 | src-des 1-3: 0 | des-src 6-2: 0
+in: analyzing edge from 6 to 0: 2.598557 weight
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 4-6: 0 | des-des 5-0: 0 | src-des 4-0: 0 | des-src 5-6: 0
+src-src 3-6: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 0-3: 0 | src-des 6-3: 0 | des-src 0-2: 0
+not in vector, vector size: 190
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 6-0: 0 | src-des 1-0: 0 | des-src 6-0: 0
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+not in vector, vector size: 191
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 7-0: 0 | src-des 0-0: 1 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-0: 1
+not in vector, vector size: 192
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 2-0: 0 | des-des 6-0: 0 | src-des 2-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 0-0: 1 | src-des 3-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 3-0: 0 | src-des 1-0: 0 | des-src 3-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-3: 0 | src-des 0-3: 0 | des-src 0-1: 0
+not in vector, vector size: 193
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 7-0: 0 | src-des 2-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+not in vector, vector size: 194
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 2-0: 0 | des-des 7-0: 0 | src-des 2-0: 0 | des-src 7-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-2: 0 | des-des 0-7: 0 | src-des 0-7: 0 | des-src 0-2: 0
+not in vector, vector size: 195
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 196
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 7-0: 0 | des-des 0-0: 1 | src-des 7-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 1-0: 0 | src-des 0-0: 1 | des-src 1-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-1: 0 | src-des 0-1: 0 | des-src 0-0: 1
+not in vector, vector size: 197
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+pq size: 1 | mst size: 198
+out: analyzing edge from 0 to 6: 2.598557 weight
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+not in vector, vector size: 198
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+src-src 5-0: 0 | des-des 0-6: 0 | src-des 5-6: 0 | des-src 0-0: 1
+src-src 3-0: 0 | des-des 4-6: 0 | src-des 3-6: 0 | des-src 4-0: 0
+src-src 2-0: 0 | des-des 3-6: 0 | src-des 2-6: 0 | des-src 3-0: 0
+src-src 0-2: 0 | des-des 6-3: 0 | src-des 0-3: 0 | des-src 6-2: 0
+in: analyzing edge from 6 to 0: 2.598557 weight
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 0-6: 0 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-6: 0
+src-src 5-6: 0 | des-des 0-0: 1 | src-des 5-0: 0 | des-src 0-6: 0
+src-src 3-6: 0 | des-des 4-0: 0 | src-des 3-0: 0 | des-src 4-6: 0
+src-src 2-6: 0 | des-des 3-0: 0 | src-des 2-0: 0 | des-src 3-6: 0
+src-src 6-2: 0 | des-des 0-3: 0 | src-des 6-3: 0 | des-src 0-2: 0
+not in vector, vector size: 199
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 6-0: 0 | src-des 0-0: 1 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-0: 1
+not in vector, vector size: 200
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 6-0: 0 | src-des 1-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+not in vector, vector size: 201
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 6-0: 0 | des-des 0-0: 1 | src-des 6-0: 0 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 1-0: 0 | des-des 6-0: 0 | src-des 1-0: 0 | des-src 6-0: 0
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-1: 0 | des-des 0-6: 0 | src-des 0-6: 0 | des-src 0-1: 0
+not in vector, vector size: 202
+in: analyzing edge from 0 to 0: 0.000000 weight
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+src-src 0-0: 1 | des-des 0-0: 1 | src-des 0-0: 1 | des-src 0-0: 1
+already in vector
+vector size: 203
