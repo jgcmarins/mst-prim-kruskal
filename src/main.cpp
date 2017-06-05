@@ -9,19 +9,22 @@ int main(int argc, char *argv[]) {
   }
   int k = atoi(argv[1]);
 
-  string data = read_file("./in/data2.txt");
+  string data = read_file("./in/data.txt");
   vector<string> all_lines = process_input(data, "\r\n");
   vector<vertex> vertices = process_lines(all_lines);
 
   graph g = new_graph(vertices.size(), vertices.size(), vertices);
   vector<edge> prim_mst = prim(g);
   create_group(&g.vertices, prim_mst, k);
-  for(edge e : prim_mst) {
+  /*for(edge e : prim_mst) {
     printf("%d. ", g.vertices.at(e.src).group);
     print_edge(e);
     printf("\n");
   }
-  printf("mst size: %ld | vertices size: %ld\n", prim_mst.size(), g.vertices.size());
+  printf("mst size: %ld | vertices size: %ld\n", prim_mst.size(), g.vertices.size());*/
+  for(vertex v : g.vertices) {
+    printf("%d\n", v.group);
+  }
 
   return 0;
 }

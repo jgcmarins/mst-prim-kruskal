@@ -53,12 +53,9 @@ void create_group(vector<vertex> *vertices, vector<edge> prim_mst, int k) {
   for(edge e : prim_mst) {
     if(e.removed) {
       group++;
-      vertices->at(e.des).group = vertices->at(e.src).group = group;
+      vertices->at(e.src).group = group;
+      if(vertices->at(e.des).group == 0) vertices->at(e.des).group = group;
     } else vertices->at(e.des).group = vertices->at(e.src).group = group;
   }
 
-  /*for(vertex v : *vertices) {
-    print_vertex(v);
-    printf("\n");
-  }*/
 }

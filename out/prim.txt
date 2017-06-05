@@ -1,2 +1,0 @@
-valgrind ./build/mst.app
-makefile:28: recipe for target 'valgrind' failed
