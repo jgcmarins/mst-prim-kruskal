@@ -9,6 +9,7 @@ typedef struct edge {
   int src;
   int des;
   float weight;
+  bool removed;
 } edge;
 
 edge new_edge(vertex v1, vertex v2, int src, int des);

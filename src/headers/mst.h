@@ -7,6 +7,8 @@
 
 using namespace std;
 
-vector<edge> prim(graph g, vector<vertex> *v);
+vector<edge> prim(graph g);
+
+void create_group(vector<vertex> *vertices, vector<edge> prim_mst, int k);
 
 #endif

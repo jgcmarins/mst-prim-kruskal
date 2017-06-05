@@ -26,3 +26,11 @@ run:
 	$(BIN)
 valgrind:
 	valgrind $(BIN)
+run3:
+	$(BIN) 3
+valgrind3:
+	valgrind $(BIN) 3
+run7:
+	$(BIN) 7
+valgrind7:
+	valgrind $(BIN) 7

@@ -8,9 +8,10 @@ edge new_edge(vertex v1, vertex v2, int src, int des) {
   e.weight = sqrt(xy);
   e.src = src;
   e.des = des;
+  e.removed = false;
   return e;
 }
 
 void print_edge(edge e) {
-  printf("%d->%d : %.4f", e.src, e.des, e.weight);
+  printf("%d->%d : %.4f | %d", e.src, e.des, e.weight, e.removed);
 }

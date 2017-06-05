@@ -10,5 +10,5 @@ vertex new_vertex(float x, float y) {
 }
 
 void print_vertex(vertex v) {
-  printf("(%.2f, %.2f)", v.x, v.y);
+  printf("%d. (%.2f, %.2f)", v.group, v.x, v.y);
 }
