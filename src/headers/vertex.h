@@ -10,6 +10,7 @@ typedef struct vertex {
   int group;
   float x;
   float y;
+  bool visited;
 } vertex;
 
 vertex new_vertex(float x, float y, int group);

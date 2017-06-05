@@ -7,8 +7,6 @@
 
 using namespace std;
 
-bool cmp_v(edge e1, edge e2);
-
 vector<edge> prim(graph g);
 
 #endif

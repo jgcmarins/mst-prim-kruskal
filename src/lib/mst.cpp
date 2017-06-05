@@ -1,13 +1,5 @@
 #include "../headers/mst.h"
 
-bool cmp_v(edge e1, edge e2) {
-  /*printf("src-src %d-%d: %d | des-des %d-%d: %d | src-des %d-%d: %d | des-src %d-%d: %d\n",
-    e1.src, e2.src, (e1.src == e2.src), e1.des, e2.des, (e1.des == e2.des),
-    e1.src, e2.des, (e1.src == e2.des), e1.des, e2.src, (e1.des == e2.src)
-  );*/
-  return (((e1.src == e2.src) && (e1.des == e2.des)) || ((e1.src == e2.des) && (e1.des == e2.src)));
-}
-
 vector<edge> prim(graph g) {
   vector<edge> edges = get_vector(g);
 
@@ -17,32 +9,26 @@ vector<edge> prim(graph g) {
 
   vector<edge> mst;
   while(pq.size() > 0) {
-    //printf("pq size: %ld | mst size: %ld\n", pq.size(), mst.size());
     edge e = pq.top(); pq.pop();
-    //printf("out: analyzing edge from %d to %d: %f weight\n", e.src, e.des, e.weight);
-    while(mst.size() < edges.size()) {
-      if(!binary_search(mst.begin(), mst.end(), e, cmp_v) || (mst.size() < 1)) {
-        //printf("not in vector, vector size: %ld\n", mst.size());
+    edge min_edge;
+    do {
+      if(!g.vertices.at(e.src).visited) {
         mst.push_back(g.edges.at(e.src).at(e.des));
+        g.vertices.at(e.src).visited = true;
       }
-      else {
-        //printf("already in vector\n");
-        break;
-      }
-      vector<edge> adjs = g.edges.at(e.src);
-      edge min_edge = adjs.at(e.src + 1);
-      printf("src: %d, des: %d | ", e.src, e.des);
-      for(unsigned int i = (e.src + 1) ; i < adjs.size() ; i++) {
+
+      vector<edge> adjs = g.edges.at(e.des);
+      if((unsigned int)(e.des + 1) <= (adjs.size() - 1)) min_edge = adjs.at(e.des + 1);
+      else break;
+      for(unsigned int i = (e.des + 2) ; i <= (adjs.size() - 1) ; i++) {
         edge adj = adjs.at(i);
-        printf("got %d from %d\n", adj.des, adj.src);
-        if(adj.weight <  min_edge.weight && binary_search(mst.begin(), mst.end(), adj, cmp_v)) min_edge = adj;
+        if(!g.vertices.at(adj.src).visited) {
+          if(adj.weight < min_edge.weight) min_edge = adj;
+        }
       }
       e = g.edges.at(min_edge.src).at(min_edge.des);
-      //printf("in: analyzing edge from %d to %d: %f weight\n", e.src, e.des, e.weight);
-    }
+    } while(!g.vertices.at(e.src).visited);
   }
-
-  //printf("vector size: %ld\n", mst.size());
 
   return mst;
 }

@@ -18,11 +18,11 @@ int main(int argc, char *argv[]) {
   graph g = new_graph(vertices.size(), vertices.size(), vertices);
   print_graph(g);
   vector<edge> prim_mst = prim(g);
-  printf("mst size: %ld\n", prim_mst.size());
   for(edge e : prim_mst) {
     print_edge(e);
     printf("\n");
   }
+  printf("mst size: %ld | vertices size: %ld\n", prim_mst.size(), g.vertices.size());
 
   /*edge test = g.edges.at(200).at(400);
   printf("euclidean distance between test vertices %d and %d: %f\n", test.src, test.des, test.weight);

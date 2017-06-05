@@ -5,6 +5,7 @@ vertex new_vertex(float x, float y, int group) {
   v.group = group;
   v.x = x;
   v.y = y;
+  v.visited = false;
   return v;
 }
 
