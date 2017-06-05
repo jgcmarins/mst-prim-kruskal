@@ -1,5 +1,5 @@
 #include "./headers/input_reader.h"
-#include "./headers/graph.h"
+#include "./headers/mst.h"
 
 int main(int argc, char *argv[]) {
   string data = read_file("./in/data.txt");
