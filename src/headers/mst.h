@@ -7,6 +7,6 @@
 
 using namespace std;
 
-vector<edge> prim(graph g);
+vector<edge> prim(graph g, vector<vertex> *v);
 
 #endif

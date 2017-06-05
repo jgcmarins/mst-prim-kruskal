@@ -13,7 +13,7 @@ typedef struct vertex {
   bool visited;
 } vertex;
 
-vertex new_vertex(float x, float y, int group);
+vertex new_vertex(float x, float y);
 
 void print_vertex(vertex v);
 

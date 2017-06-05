@@ -1,6 +1,6 @@
 #include "../headers/mst.h"
 
-vector<edge> prim(graph g) {
+vector<edge> prim(graph g, vector<vertex> *v) {
   vector<edge> edges = get_vector(g);
 
   auto cmp_pq = [](edge left, edge right) { return (left.weight) > (right.weight); };
@@ -8,6 +8,7 @@ vector<edge> prim(graph g) {
   for(edge e : edges) pq.push(e);
 
   vector<edge> mst;
+  int group = 1;
   while(pq.size() > 0) {
     edge e = pq.top(); pq.pop();
     edge min_edge;
@@ -15,6 +16,14 @@ vector<edge> prim(graph g) {
       if(!g.vertices.at(e.src).visited) {
         mst.push_back(g.edges.at(e.src).at(e.des));
         g.vertices.at(e.src).visited = true;
+        if(g.vertices.at(e.src).group == 0) {
+          v->at(e.src).group = group;
+          printf("setting groupd: %d | ", group);
+        }
+        if(g.vertices.at(e.des).group == 0) {
+          v->at(e.des).group = group;
+          printf("setting groupd: %d\n", group);
+        }
       }
 
       vector<edge> adjs = g.edges.at(e.des);
@@ -28,6 +37,7 @@ vector<edge> prim(graph g) {
       }
       e = g.edges.at(min_edge.src).at(min_edge.des);
     } while(!g.vertices.at(e.src).visited);
+    group++;
   }
 
   return mst;

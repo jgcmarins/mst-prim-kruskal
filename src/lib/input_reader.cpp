@@ -32,7 +32,7 @@ vector<vertex> process_lines(vector<string> all_lines) {
   for(string s : all_lines) {
     vector<string> line = process_input(s, "\t");
     string::size_type sz;
-    vertex v = new_vertex(stof(line.at(0).c_str(), &sz), stof(line.at(1).c_str(), &sz), 0);
+    vertex v = new_vertex(stof(line.at(0).c_str(), &sz), stof(line.at(1).c_str(), &sz));
     vertices.push_back(v);
   }
   return vertices;
