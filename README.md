@@ -9,7 +9,7 @@ Given an integer number `k`, run Prim's algorithm to build a MST based on a prio
 Given an integer number `k` and based on a union find structure, run Kruskal's algorithm to build `k` MST.
 
 ## Results
-Check the results [here](https://github.com/jgcmarins/mst-prim-kruskal/tree/master/results).
+Check results [here](https://github.com/jgcmarins/mst-prim-kruskal/tree/master/results).
 
 ## How to use
 ```
