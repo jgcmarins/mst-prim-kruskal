@@ -34,5 +34,3 @@ run7:
 	$(BIN) 7
 valgrind7:
 	valgrind $(BIN) 7
-runprim7:
-	$(BIN) 7 > out/prim_classes.txt
