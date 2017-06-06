@@ -13,5 +13,5 @@ edge new_edge(vertex v1, vertex v2, int src, int des) {
 }
 
 void print_edge(edge e) {
-  printf("%d->%d : %.4f | %d", e.src, e.des, e.weight, e.removed);
+  printf("%d->%d : %.4f", e.src, e.des, e.weight);
 }

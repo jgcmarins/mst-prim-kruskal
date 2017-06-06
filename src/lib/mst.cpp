@@ -33,6 +33,29 @@ vector<edge> prim(graph g) {
   return mst;
 }
 
+vector<edge> kruskal(graph g, vector<vertex> *vertices, int k) {
+  vector<edge> edges = get_vector(g);
+
+  auto cmp_pq = [](edge left, edge right) { return (left.weight) > (right.weight); };
+  priority_queue<edge, vector<edge>, decltype(cmp_pq)> pq(cmp_pq);
+  for(edge e : edges) pq.push(e);
+
+  vector<edge> mst;
+  int group = 1;
+  while(pq.size() > 0) {
+    edge e = pq.top(); pq.pop();
+    if(!vertices->at(e.src).visited) {
+      mst.push_back(g.edges.at(e.src).at(e.des));
+      vertices->at(e.src).visited = true;
+      vertices->at(e.src).group = group;
+    } else {
+      group++;
+      if(group > k) group = 1;
+    }
+  }
+  return mst;
+}
+
 void create_group(vector<vertex> *vertices, vector<edge> prim_mst, int k) {
   auto cmp_pq = [](edge left, edge right) { return (left.weight) < (right.weight); };
   priority_queue<edge, vector<edge>, decltype(cmp_pq)> pq(cmp_pq);
